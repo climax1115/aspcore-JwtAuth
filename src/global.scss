@@ -1,0 +1,20 @@
+.table-core {
+    border: 1px rgb(238, 3, 42) solid;
+
+    td {
+        padding: 100px;
+
+        h4 {
+            font-weight: bold;
+        }
+
+    }
+
+    td:hover {
+        background-color: rgba(218, 110, 165, 0.6);
+    }
+
+    td.active {
+        background-color: rgba(218, 110, 165, 0.6);
+    }
+}
